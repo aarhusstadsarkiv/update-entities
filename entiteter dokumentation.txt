@@ -1,0 +1,5 @@
+Er der en måde hvorpå man kan kalde POST til aarhusianas entitets-endpoints gennem scripts? JA, brug json-encoded blob i payloads 'data'-key
+
+Både opret ny entitet og replace eksisterende entitet? Samme som ovenstående
+
+Kan man få id tilbage ved opret-kald gennem scripts? Ja, hvis man laver kaldet som json-encoded data. Alternativt rkan jeg bare opdaterer main.py
